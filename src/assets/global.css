@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(173,173,173,0.4) 0%, rgba(148,148,148,0.2) 100%), url("./images/background-test.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.title {
+    font-size: 7rem;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-inline: 15px;
+}
+
+@media screen and (max-width:768px) {
+   .title {
+       font-size: 3rem;
+   }
+}
+
+.button-container {
+    width: 100%;
+    margin: auto;
+}
+
+.start-button {
+    font-size: 2rem;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    background-color: #B94764;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #D5AE67;
+    color: black;
+    transform: scale(0.9);
+}
