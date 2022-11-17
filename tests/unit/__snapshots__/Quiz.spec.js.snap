@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quiz.vue It renders component  1`] = `
+<div
+  class="quiz-container"
+>
+  
+  <h3>
+    You’re really busy at work and a colleague is telling you their life story and personal woes. You:
+  </h3>
+  <div
+    class="answer-container"
+  >
+    <ul
+      class="answer-list"
+    >
+      
+      <li>
+        Don’t dare to interrupt them
+      </li>
+      <li>
+        Think it’s more important to give them some of your time; work can wait
+      </li>
+      <li>
+        Listen, but with only with half an ear
+      </li>
+      <li>
+        Interrupt and explain that you are really busy at the moment
+      </li>
+      
+    </ul>
+  </div>
+  
+</div>
+`;
