@@ -24,12 +24,12 @@ export default {
     }
   },
   methods: {
-    nextQuestion(event) {
+    nextQuestion(points) {
       if(this.currentIndex < this.questions.length) {
-        this.totalPoints = this.totalPoints + event
+        this.totalPoints = this.totalPoints + points
         this.currentIndex++
         if(this.currentIndex === this.questions.length) {
-          this.totalPoints = this.totalPoints + event
+          this.totalPoints = this.totalPoints + points
           this.showAnswer()
         }
       }
