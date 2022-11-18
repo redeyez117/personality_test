@@ -33,7 +33,6 @@ export default {
           this.showAnswer()
         }
       }
-      console.log(this.totalPoints)
     },
     showAnswer() {
       this.quizResult = true
