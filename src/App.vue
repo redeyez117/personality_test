@@ -14,6 +14,7 @@
 
 <script>
 import quiz from "@/components/Quiz";
+
 export default {
   name: 'App',
   components: {

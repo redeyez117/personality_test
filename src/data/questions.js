@@ -13,7 +13,10 @@ export const questions = [
         answers: [
             {answer: 'Look at your watch every two minutes', point: 7},
             {answer: 'Bubble with inner anger, but keep quiet', point: 2},
-            {answer: 'Explain to other equally impatient people in the room that the doctor is always running late', point: 50},
+            {
+                answer: 'Explain to other equally impatient people in the room that the doctor is always running late',
+                point: 50
+            },
             {answer: 'Complain in a loud voice, while tapping your foot impatiently', point: 30}
         ]
     },

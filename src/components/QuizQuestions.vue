@@ -1,8 +1,9 @@
 <template>
-<h3>{{question.question}}</h3>
+  <h3>{{ question.question }}</h3>
   <div class="answer-container">
     <ul class="answer-list">
-      <li @click="answerQuestion(answer.point)" :key="answer" v-for="answer in question.answers">{{answer.answer}}</li>
+      <li @click="answerQuestion(answer.point)" :key="answer" v-for="answer in question.answers">{{ answer.answer }}
+      </li>
     </ul>
   </div>
 </template>
